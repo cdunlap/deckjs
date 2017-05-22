@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Cale Dunlap",
+      "authorEmail": "cale.dunlap@gmail.com",
+      "authorUrl": "caledunlap.com"
+    }
+  }
+}

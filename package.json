@@ -1,0 +1,42 @@
+{
+  "name": "deckjs",
+  "version": "0.0.0",
+  "description": "A card deck system for Javascript",
+  "homepage": "",
+  "author": {
+    "name": "Cale Dunlap",
+    "email": "cale.dunlap@gmail.com",
+    "url": "caledunlap.com"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "nsp": "^2.6.3",
+    "eslint": "^3.18.0",
+    "eslint-config-xo-space": "^0.16.0",
+    "jest": "^19.0.2",
+    "jest-cli": "^19.0.1"
+  },
+  "scripts": {
+    "prepublish": "nsp check",
+    "pretest": "eslint . --fix",
+    "test": "jest"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "jest": true,
+      "node": true
+    }
+  },
+  "repository": "https://github.com/cdunlap/deckjs.git",
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "license": "unlicense"
+}
