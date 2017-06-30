@@ -8,12 +8,8 @@ $ npm install --save deckjs
 ```
 
 ## Usage
+*TODO*
 
-```js
-const deckjs = require('deckjs');
-
-deckjs('Rainbow');
-```
 ## License
 
 unlicense © [Cale Dunlap](caledunlap.com)
