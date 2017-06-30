@@ -12,7 +12,7 @@ $ npm install --save deckjs
 
 ## License
 
-unlicense © [Cale Dunlap](caledunlap.com)
+unlicense © [Cale Dunlap](http://caledunlap.com)
 
 
 [npm-image]: https://badge.fury.io/js/deckjs.svg
